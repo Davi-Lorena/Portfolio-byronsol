@@ -11,3 +11,10 @@ font-family: "Poppins", Helvetica, sans-serif;
 color: var(--clr-black);
 
 }
+
+/* Utilitary */
+
+a {
+    color: inherit;
+    text-decoration: none;
+}

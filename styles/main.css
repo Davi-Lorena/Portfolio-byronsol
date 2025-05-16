@@ -1,0 +1,48 @@
+main {
+    & #home {
+        display: flex;
+        flex-direction: column;
+justify-content: center;
+        height: 700px;
+padding-inline: 1.5rem;
+background: url(../assets/dv-img-mobile.png) no-repeat -3.5rem;
+
+        & .home-cta {
+            display: flex;
+        flex-direction: column;
+        gap: 2.85rem;
+& .home-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    & h1 {
+        font-size: 1.5rem;
+        line-height: 150%;
+        font-weight: 500;
+        margin: 0;
+}
+
+& p {
+    line-height: 150%;
+}
+
+}
+
+& a {
+    background-color: var(--clr-primary);
+    width: fit-content;
+    padding: .85rem 1.25rem;
+    border-radius: .5rem;
+    color: var(--clr-white);
+    transition: transform 150ms ease;
+
+&:hover {
+    transform: scale(1.01);
+}
+
+}
+
+        }
+
+    }
+}
