@@ -1,0 +1,13 @@
+:root {
+/* Variáveis de cor */ 
+--clr-primary: #e02d2d;
+--clr-black: #191919;
+--clr-white: #eef2f5;
+
+/* Fontes e variações de textos  */ 
+font-family: "Poppins", Helvetica, sans-serif;
+    font-size: .875rem;
+    line-height: 18px;
+color: var(--clr-black);
+
+}
