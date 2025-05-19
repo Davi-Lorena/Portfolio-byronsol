@@ -1,4 +1,5 @@
 main {
+
     & #home {
         display: flex;
         flex-direction: column;
@@ -28,21 +29,35 @@ background: url(../assets/dv-img-mobile.png) no-repeat -3.5rem;
 
 }
 
-& a {
-    background-color: var(--clr-primary);
-    width: fit-content;
-    padding: .85rem 1.25rem;
-    border-radius: .5rem;
-    color: var(--clr-white);
-    transition: transform 150ms ease;
-
-&:hover {
-    transform: scale(1.01);
-}
-
-}
-
         }
 
     }
+
+    & #about {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        padding: 2.25rem 1.75rem;
+        background-color: var(--clr-black);
+        color: var(--clr-white);
+
+& h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 150%;
+    text-transform: uppercase;
+}
+
+& img {
+    border-radius: .6rem;
+}
+
+& .about-links {
+    display: flex;
+    gap: 1.5rem;
+    width: 100%;
+}
+
+    } 
+
 }
