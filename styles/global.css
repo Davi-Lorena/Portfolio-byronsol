@@ -32,6 +32,10 @@ a {
     text-decoration: none;
 }
 
+ul[role="list"] {
+    list-style: none;
+}
+
 .btn {
      background-color: var(--clr-primary);
     width: fit-content;
