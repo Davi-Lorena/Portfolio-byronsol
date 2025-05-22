@@ -1,0 +1,29 @@
+footer {
+    padding-block: 1.75rem;
+    background-color: var(--clr-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & a {
+        display: flex;
+        align-items: center;
+        gap: .5rem;
+        color: var(--clr-black);
+font-size: 1.1rem;
+font-weight: 300;
+
+& img {
+height: 1.75rem;
+transition: transform 300ms ease;
+
+&:hover {
+    transform: scale(1.05);
+}
+
+
+}
+
+    }
+    
+}
