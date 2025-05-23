@@ -109,6 +109,20 @@ gap: 1rem;
     
     & ul {
         gap: 1.4rem;
+        max-width: 18.5rem;
+
+& li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+height: 5rem;
+}
+
+& li.ps {
+    padding: 0;
+}
+
     }
 
 
@@ -126,6 +140,16 @@ gap: 1rem;
     display: flex;
     flex-direction: column;
 gap: .75rem;
+
+& li {
+    display: flex;
+    align-items: center;
+    & i {
+        width: 1.5rem;  
+      }
+
+}
+
 
 }
 
