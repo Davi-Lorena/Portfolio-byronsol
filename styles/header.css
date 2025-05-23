@@ -27,3 +27,11 @@ header {
     }
 
 }
+
+@media (width >= 1024px) {
+    header {
+        & nav {
+            display: flex;
+        }
+    }
+}

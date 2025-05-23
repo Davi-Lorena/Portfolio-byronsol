@@ -12,6 +12,10 @@ color: var(--clr-black);
 
 }
 
+html {
+scroll-behavior: smooth;
+}
+
 /* Utilitary */
 
 section {
@@ -52,5 +56,4 @@ ul[role="list"] {
     transform: scale(1.01);
 }
 }
-
 
